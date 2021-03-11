@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica getelement</title>
+</head>
+
+<body>
+    <p>Universidad Tecnológica de Durango</p>
+    <p>Nombre del alumno: Calderon Olivas Alma</p>
+    <span>Carrera: Tecnologias de la informacion</span>
+    <br>
+    <span>Moldelo DOM</span>
+    <p id="parrafo">Tecnológias de la Información</p>
+    
+    <script>
+        let parrafos = document.getElementsByTagName('p');
+        console.log(parrafos.length);
+    </script>
+
+    <script>
+        var acceder_parrafo = document.getElementsByTagId('parrafo');
+        acceder_parrafo.innerHTML = "Energias Renovables";
+    </script>
+
+
+</body>
+
+</html>
